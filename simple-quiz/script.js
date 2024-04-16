@@ -55,7 +55,7 @@ const cardInnerEl = document.getElementById('card-inner');
     const metadataText = cue.text;
     const position = player.getPosition().toFixed(2);
     console.log(
-      `Player Event - TEXT_METADATA_CUE: "${metadataText}". Observed ${position}s after playback started.`
+      `Player Event - TEXT_METADATA_CUE: "${metadataText}". Observed ${position}s after playback started .`
     );
     triggerQuiz(metadataText);
   });
